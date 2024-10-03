@@ -5,3 +5,5 @@ Sample Input:
 Sample Output:
 3
 '''
+elements=input().split(' ')
+print(len(elements))
