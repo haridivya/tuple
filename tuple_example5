@@ -8,3 +8,8 @@ Sample Input:
 Sample Output:
 10
 '''
+n=int(input())
+temp=[]
+for i in range(n):
+    temp.append(int(input()))
+print(min(sum1))
