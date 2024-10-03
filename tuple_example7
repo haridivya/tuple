@@ -5,3 +5,9 @@ Sample Input:
 Sample Output:
 60
 '''
+values=input().split(' ')
+sum1=0
+for i in values:
+    z=int(i)
+    sum1+=z
+print(sum1)
