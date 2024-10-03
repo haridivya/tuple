@@ -8,3 +8,9 @@ Sample Input:
 Sample Output:
 (20, 10, 30)
 '''
+n=int(input())
+var=[]
+for i in range(n):
+    temp=int(input())
+    var.append(temp)
+print(tuple(var))
