@@ -6,3 +6,15 @@ Sample Input:
 Sample Output:
 6
 '''
+values=input().split(' ')
+elements=[int(i) for i in values]
+ele=tuple(elements)
+x=int(input())
+count_x=0
+for i in ele:
+    if i==x:
+        count_x+=1
+fact=1
+for z in range(1,count_x+1):
+    fact*=z
+print(fact)
