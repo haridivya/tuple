@@ -6,3 +6,11 @@ Sample Input:
 Sample Output:
 4
 '''
+elements=input().split(' ')
+count=0
+x=int(input())
+for i in elements:
+    z=int(i)
+    if z==x:
+        count+=1
+print(count)
