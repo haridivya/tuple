@@ -8,3 +8,9 @@ Sample Input:
 Sample Output:
 60
 '''
+n=int(input())
+sum1=0
+for i in range(n):
+    temp=int(input())
+    sum1+=temp
+print(sum1)
